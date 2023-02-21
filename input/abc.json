@@ -1,0 +1,16 @@
+{
+	"s1": {
+		"name": [{
+			"class": "mca",
+			"entities": [
+          {
+            "start": 32,
+            "end": 42,
+            "value": "businesses",
+            "entity": "business"
+          }]
+		}, {
+			"class": "BCA"
+		}]
+	}
+}

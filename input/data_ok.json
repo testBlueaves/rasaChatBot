@@ -1,0 +1,2100 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "What types of organizations and businesses need registration on FoodWatch platform",
+        "intent": "intent_registration_business",
+        "entities": [
+          {
+            "start": 32,
+            "end": 42,
+            "value": "businesses",
+            "entity": "business"
+          },
+          {
+            "start": 14,
+            "end": 27,
+            "value": "organizations",
+            "entity": "organizations"
+          },
+          {
+            "start": 48,
+            "end": 60,
+            "value": "registration",
+            "entity": "register"
+          }
+        ]
+      },
+      {
+        "text": "What types of organizations and businesses need registration",
+        "intent": "intent_registration_business",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "organizations",
+            "entity": "organizations"
+          },
+          {
+            "start": 32,
+            "end": 42,
+            "value": "businesses",
+            "entity": "business"
+          },
+          {
+            "start": 48,
+            "end": 60,
+            "value": "registration",
+            "entity": "register"
+          }
+        ]
+      },
+      {
+        "text": "How should a hotel with multiple restaurants register",
+        "intent": "intent_registration_hotels",
+        "entities": [
+          {
+            "start": 45,
+            "end": 53,
+            "value": "register",
+            "entity": "register"
+          },
+          {
+            "start": 13,
+            "end": 44,
+            "value": "hotel with multiple restaurants",
+            "entity": "hotel_restaurants"
+          }
+        ]
+      },
+      {
+        "text": "How should a hotel with multiple restaurants register on FoodWatch?",
+        "intent": "intent_registration_hotels",
+        "entities": [
+          {
+            "start": 45,
+            "end": 53,
+            "value": "register",
+            "entity": "register"
+          },
+          {
+            "start": 13,
+            "end": 44,
+            "value": "hotel with multiple restaurants",
+            "entity": "hotel_restaurants"
+          }
+        ]
+      },
+      {
+        "text": "What is the role of a secondary pic?",
+        "intent": "intent_pic_secondary ",
+        "entities": [
+          {
+            "start": 32,
+            "end": 35,
+            "value": "pic",
+            "entity": "pic"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "secondary",
+            "entity": "secondary_pic"
+          }
+        ]
+      },
+      {
+        "text": "types of organizations and businesses",
+        "intent": "",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "businesses",
+            "entity": "business"
+          },
+          {
+            "start": 9,
+            "end": 22,
+            "value": "organizations",
+            "entity": "organizations"
+          }
+        ]
+      },
+      {
+        "text": "registration on FoodWatch platform",
+        "intent": "intent_registration",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "registration",
+            "entity": "register"
+          },
+          {
+            "start": 16,
+            "end": 34,
+            "value": "FoodWatch platform",
+            "entity": "company_platform"
+          }
+        ]
+      },
+      {
+        "text": "registration",
+        "intent": "intent_registration",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "registration",
+            "entity": "register"
+          }
+        ]
+      },
+      {
+        "text": "register",
+        "intent": "intent_registration",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "register",
+            "entity": "register"
+          }
+        ]
+      },
+      {
+        "text": "hotel with multiple restaurants",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "hotel with multiple restaurants",
+            "entity": "hotel_restaurants"
+          }
+        ]
+      },
+      {
+        "text": "multiple sites register",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "multiple sites register",
+            "entity": "many_sites"
+          }
+        ]
+      },
+      {
+        "text": "multiple sites register on FoodWatch",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "multiple sites register",
+            "entity": "many_sites"
+          }
+        ]
+      },
+      {
+        "text": "all sites are operating under the main license",
+        "intent": "",
+        "entities": [
+          {
+            "start": 30,
+            "end": 46,
+            "value": "the main license",
+            "entity": "main_license"
+          }
+        ]
+      },
+      {
+        "text": "organizations",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "organizations",
+            "entity": "organizations"
+          }
+        ]
+      },
+      {
+        "text": "businesses",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "businesses",
+            "entity": "business"
+          }
+        ]
+      },
+      {
+        "text": "PIC",
+        "intent": "ask_pic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "PIC",
+            "entity": "pic"
+          }
+        ]
+      },
+      {
+        "text": "primary pic",
+        "intent": "intent_pic_primary",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "primary",
+            "entity": "primary_pic"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "pic",
+            "entity": "pic"
+          }
+        ]
+      },
+      {
+        "text": "secondary pic",
+        "intent": "intent_pic_secondary ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "secondary",
+            "entity": "secondary_pic"
+          },
+          {
+            "start": 10,
+            "end": 13,
+            "value": "pic",
+            "entity": "pic"
+          }
+        ]
+      },
+      {
+        "text": " role of a primary pic",
+        "intent": "intent_pic_primary",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "primary",
+            "entity": "primary_pic"
+          },
+          {
+            "start": 19,
+            "end": 22,
+            "value": "pic",
+            "entity": "pic"
+          }
+        ]
+      },
+      {
+        "text": " What is the role of a primary pic?",
+        "intent": "intent_pic_primary",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "primary",
+            "entity": "primary_pic"
+          },
+          {
+            "start": 31,
+            "end": 34,
+            "value": "pic",
+            "entity": "pic"
+          }
+        ]
+      },
+      {
+        "text": "role of a secondary pic",
+        "intent": "intent_pic_secondary ",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "pic",
+            "entity": "pic"
+          },
+          {
+            "start": 10,
+            "end": 19,
+            "value": "secondary",
+            "entity": "secondary_pic"
+          }
+        ]
+      },
+      {
+        "text": "pic",
+        "intent": "ask_pic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "pic",
+            "entity": "pic"
+          }
+        ]
+      },
+      {
+        "text": "pics",
+        "intent": "ask_pic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "pics",
+            "entity": "pic"
+          }
+        ]
+      },
+      {
+        "text": "PICs",
+        "intent": "ask_pic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "PICs",
+            "entity": "pic"
+          }
+        ]
+      },
+      {
+        "text": "Can I register on a FoodWatch? ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "register",
+            "entity": "register"
+          },
+          {
+            "start": 20,
+            "end": 29,
+            "value": "FoodWatch",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "Please mention the type of organization and business That can register on FoodWatch? ",
+        "intent": "intent_registration_business",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "organization",
+            "entity": "organizations"
+          },
+          {
+            "start": 44,
+            "end": 52,
+            "value": "business",
+            "entity": "business"
+          },
+          {
+            "start": 62,
+            "end": 70,
+            "value": "register",
+            "entity": "register"
+          }
+        ]
+      },
+      {
+        "text": "What kinds of businesses and organisations must register on the FoodWatch platform? ",
+        "intent": "intent_registration_business",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "businesses",
+            "entity": "business"
+          },
+          {
+            "start": 29,
+            "end": 42,
+            "value": "organisations",
+            "entity": "organizations"
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "value": "register",
+            "entity": "register"
+          }
+        ]
+      },
+      {
+        "text": "What types of organisations and businesses are required to register on the FoodWatch platform? ",
+        "intent": "intent_registration_business",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "organisations",
+            "entity": "organizations"
+          },
+          {
+            "start": 32,
+            "end": 42,
+            "value": "businesses",
+            "entity": "business"
+          },
+          {
+            "start": 59,
+            "end": 67,
+            "value": "register",
+            "entity": "register"
+          }
+        ]
+      },
+      {
+        "text": "What categories of businesses and organisations are required to register on the FoodWatch platform? ",
+        "intent": "intent_registration_business",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "businesses",
+            "entity": "business"
+          },
+          {
+            "start": 34,
+            "end": 47,
+            "value": "organisations",
+            "entity": "organizations"
+          },
+          {
+            "start": 64,
+            "end": 72,
+            "value": "register",
+            "entity": "register"
+          }
+        ]
+      },
+      {
+        "text": "What kinds of businesses and organisations need to sign up for the FoodWatch platform? ",
+        "intent": "intent_registration_business",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "businesses",
+            "entity": "business"
+          },
+          {
+            "start": 29,
+            "end": 42,
+            "value": "organisations",
+            "entity": "organizations"
+          },
+          {
+            "start": 51,
+            "end": 58,
+            "value": "sign up",
+            "entity": "register"
+          }
+        ]
+      },
+      {
+        "text": "We need to know what kinds of businesses and organisations will be using the FoodWatch platform. ",
+        "intent": "intent_registration_business",
+        "entities": [
+          {
+            "start": 30,
+            "end": 40,
+            "value": "businesses",
+            "entity": "business"
+          },
+          {
+            "start": 45,
+            "end": 58,
+            "value": "organisations",
+            "entity": "organizations"
+          }
+        ]
+      },
+      {
+        "text": "Which kinds of companies and organisations are required to register on the FoodWatch platform? ",
+        "intent": "intent_registration_business",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "companies",
+            "entity": "business"
+          },
+          {
+            "start": 29,
+            "end": 42,
+            "value": "organisations",
+            "entity": "organizations"
+          },
+          {
+            "start": 59,
+            "end": 67,
+            "value": "register",
+            "entity": "register"
+          }
+        ]
+      },
+      {
+        "text": "Which companies and organisations need FoodWatch registration? ",
+        "intent": "intent_registration_business",
+        "entities": [
+          {
+            "start": 20,
+            "end": 33,
+            "value": "organisations",
+            "entity": "organizations"
+          },
+          {
+            "start": 6,
+            "end": 15,
+            "value": "companies",
+            "entity": "business"
+          },
+          {
+            "start": 49,
+            "end": 61,
+            "value": "registration",
+            "entity": "register"
+          }
+        ]
+      },
+      {
+        "text": "How do hotels with numerous restaurants sign up for FoodWatch? ",
+        "intent": "intent_registration_hotels",
+        "entities": [
+          {
+            "start": 40,
+            "end": 47,
+            "value": "sign up",
+            "entity": "register"
+          },
+          {
+            "start": 7,
+            "end": 39,
+            "value": "hotels with numerous restaurants",
+            "entity": "hotel_restaurants"
+          }
+        ]
+      },
+      {
+        "text": "What information should a hotel with many restaurants provide to FoodWatch? ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 26,
+            "end": 61,
+            "value": "hotel with many restaurants provide",
+            "entity": "hotel_restaurants"
+          }
+        ]
+      },
+      {
+        "text": "FoodWatch registration for hotels with many restaurants? ",
+        "intent": "intent_registration_hotels",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "registration",
+            "entity": "register"
+          },
+          {
+            "start": 27,
+            "end": 55,
+            "value": "hotels with many restaurants",
+            "entity": "hotel_restaurants"
+          }
+        ]
+      },
+      {
+        "text": "How should a hotel with various dining options register with FoodWatch? ",
+        "intent": "intent_registration_hotels",
+        "entities": [
+          {
+            "start": 13,
+            "end": 46,
+            "value": "hotel with various dining options",
+            "entity": "hotel_restaurants"
+          },
+          {
+            "start": 47,
+            "end": 55,
+            "value": "register",
+            "entity": "register"
+          }
+        ]
+      },
+      {
+        "text": "How does a hotel with more than one restaurant sign up for FoodWatch? ",
+        "intent": "intent_registration_hotels",
+        "entities": [
+          {
+            "start": 47,
+            "end": 54,
+            "value": "sign up",
+            "entity": "register"
+          },
+          {
+            "start": 11,
+            "end": 46,
+            "value": "hotel with more than one restaurant",
+            "entity": "hotel_restaurants"
+          }
+        ]
+      },
+      {
+        "text": "Registration for FoodWatch at a hotel that features various dining options. ",
+        "intent": "intent_registration_hotels",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Registration",
+            "entity": "register"
+          },
+          {
+            "start": 32,
+            "end": 74,
+            "value": "hotel that features various dining options",
+            "entity": "hotel_restaurants"
+          }
+        ]
+      },
+      {
+        "text": "How should a hotel that features many dining establishments sign up for FoodWatch? ",
+        "intent": "intent_registration_hotels",
+        "entities": [
+          {
+            "start": 60,
+            "end": 67,
+            "value": "sign up",
+            "entity": "register"
+          },
+          {
+            "start": 13,
+            "end": 59,
+            "value": "hotel that features many dining establishments",
+            "entity": "hotel_restaurants"
+          }
+        ]
+      },
+      {
+        "text": "FoodWatch registration for hotels with many restaurants? ",
+        "intent": "intent_registration_hotels",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "registration",
+            "entity": "register"
+          },
+          {
+            "start": 27,
+            "end": 55,
+            "value": "hotels with many restaurants",
+            "entity": "hotel_restaurants"
+          }
+        ]
+      },
+      {
+        "text": " How should a caterer with multiple sites register on FoodWatch if all sites are operating under the main license?",
+        "intent": "intent_registration_multisites",
+        "entities": [
+          {
+            "start": 42,
+            "end": 50,
+            "value": "register",
+            "entity": "register"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "caterer",
+            "entity": "caterer"
+          },
+          {
+            "start": 106,
+            "end": 113,
+            "value": "license",
+            "entity": "license"
+          }
+        ]
+      },
+      {
+        "text": "If all sites are under one licence, how should a caterer register on FoodWatch? ",
+        "intent": "intent_registration_multisites",
+        "entities": [
+          {
+            "start": 49,
+            "end": 56,
+            "value": "caterer",
+            "entity": "caterer"
+          },
+          {
+            "start": 57,
+            "end": 65,
+            "value": "register",
+            "entity": "register"
+          },
+          {
+            "start": 27,
+            "end": 34,
+            "value": "licence",
+            "entity": "license"
+          }
+        ]
+      },
+      {
+        "text": "If a caterer has many locations that all fall under the same main licence, how should the caterer register with FoodWatch? ",
+        "intent": "intent_registration_multisites",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "caterer",
+            "entity": "caterer"
+          },
+          {
+            "start": 98,
+            "end": 106,
+            "value": "register",
+            "entity": "register"
+          },
+          {
+            "start": 90,
+            "end": 97,
+            "value": "caterer",
+            "entity": "caterer"
+          },
+          {
+            "start": 66,
+            "end": 73,
+            "value": "licence",
+            "entity": "license"
+          }
+        ]
+      },
+      {
+        "text": "How does a caterer sign up for FoodWatch if they have more than one location but only one licence? ",
+        "intent": "intent_registration_multisites",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "caterer",
+            "entity": "caterer"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "sign up",
+            "entity": "register"
+          },
+          {
+            "start": 90,
+            "end": 97,
+            "value": "licence",
+            "entity": "license"
+          }
+        ]
+      },
+      {
+        "text": "How should a caterer with several locations register with FoodWatch if all locations operate under a single licence? ",
+        "intent": "intent_registration_multisites",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "caterer",
+            "entity": "caterer"
+          },
+          {
+            "start": 44,
+            "end": 52,
+            "value": "register",
+            "entity": "register"
+          },
+          {
+            "start": 108,
+            "end": 115,
+            "value": "licence",
+            "entity": "license"
+          }
+        ]
+      },
+      {
+        "text": "How should a caterer with several locations register with FoodWatch if all locations operate under the same licence? ",
+        "intent": "intent_registration_multisites",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "caterer",
+            "entity": "caterer"
+          },
+          {
+            "start": 44,
+            "end": 52,
+            "value": "register",
+            "entity": "register"
+          },
+          {
+            "start": 108,
+            "end": 115,
+            "value": "licence",
+            "entity": "main_license"
+          }
+        ]
+      },
+      {
+        "text": "If a caterer operates many locations under one main licence, how should they register on FoodWatch? ",
+        "intent": "intent_registration_multisites",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "caterer",
+            "entity": "caterer"
+          },
+          {
+            "start": 77,
+            "end": 85,
+            "value": "register",
+            "entity": "register"
+          },
+          {
+            "start": 52,
+            "end": 59,
+            "value": "licence",
+            "entity": "license"
+          }
+        ]
+      },
+      {
+        "text": " How can food permits be obtained through foodwatch? ",
+        "intent": "intent_permits",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "permits",
+            "entity": "permit"
+          },
+          {
+            "start": 42,
+            "end": 51,
+            "value": "foodwatch",
+            "entity": "company"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "Should all pics be trained and certified in food safety?",
+        "intent": "intent_certification_pic",
+        "entities": [
+          {
+            "start": 43,
+            "end": 55,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "pics",
+            "entity": "pic"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "trained",
+            "entity": "train"
+          },
+          {
+            "start": 31,
+            "end": 40,
+            "value": "certified",
+            "entity": "certification"
+          }
+        ]
+      },
+      {
+        "text": "Why should the pics complete 7 days of food safety checks before obtaining the pic certification?",
+        "intent": "intent_certification_pic_date",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "pics",
+            "entity": "pic"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "7 days",
+            "entity": "date"
+          },
+          {
+            "start": 39,
+            "end": 50,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 79,
+            "end": 96,
+            "value": "pic certification",
+            "entity": "pic_certificate"
+          }
+        ]
+      },
+      {
+        "text": " What does the 'active' status indicate?",
+        "intent": "intent_status",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "active",
+            "entity": "active"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "If my status is “inactive”, will it limit my access to foodwatch features? ",
+        "intent": "intent_status_access_limit",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 55,
+            "end": 73,
+            "value": "foodwatch features",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "status",
+            "entity": "status"
+          },
+          {
+            "start": 36,
+            "end": 41,
+            "value": "limit",
+            "entity": "limit"
+          }
+        ]
+      },
+      {
+        "text": "Why does the status say 'Inactive' even after the checks were performed?",
+        "intent": "intent_status_check",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 50,
+            "end": 56,
+            "value": "checks",
+            "entity": "checks"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "How do I use foodwatch to get food permits?",
+        "intent": "intent_permits",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "foodwatch",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 35,
+            "end": 42,
+            "value": "permits",
+            "entity": "permit"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "How can foodwatch help you secure food permits?",
+        "intent": "intent_permits",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "foodwatch",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 39,
+            "end": 46,
+            "value": "permits",
+            "entity": "permit"
+          },
+          {
+            "start": 34,
+            "end": 38,
+            "value": "food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "How may foodwatch permits for food be obtained?",
+        "intent": "intent_permits",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "foodwatch",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 18,
+            "end": 25,
+            "value": "permits",
+            "entity": "permit"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "How do you get a food permit through foodwatch?",
+        "intent": "intent_permits",
+        "entities": [
+          {
+            "start": 37,
+            "end": 46,
+            "value": "foodwatch",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "value": "permit",
+            "entity": "permit"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "How does one go about obtaining a foodwatch permit for a food establishment?",
+        "intent": "intent_permits",
+        "entities": [
+          {
+            "start": 34,
+            "end": 43,
+            "value": "foodwatch",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "permit",
+            "entity": "permit"
+          }
+        ]
+      },
+      {
+        "text": "How exactly does one go about acquiring food permits through foodwatch?",
+        "intent": "intent_permits",
+        "entities": [
+          {
+            "start": 61,
+            "end": 70,
+            "value": "foodwatch",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 45,
+            "end": 52,
+            "value": "permits",
+            "entity": "permit"
+          },
+          {
+            "start": 40,
+            "end": 44,
+            "value": "food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "foodwatch food permits—how?",
+        "intent": "intent_permits",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "foodwatch",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 15,
+            "end": 22,
+            "value": "permits",
+            "entity": "permit"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "food",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "Should all pics receive food safety training and certification?",
+        "intent": "intent_certification_pic",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "pics",
+            "entity": "pic"
+          },
+          {
+            "start": 24,
+            "end": 35,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 36,
+            "end": 44,
+            "value": "training",
+            "entity": "train"
+          },
+          {
+            "start": 49,
+            "end": 62,
+            "value": "certification",
+            "entity": "certification"
+          }
+        ]
+      },
+      {
+        "text": "Should all pics have food safety training and certification?",
+        "intent": "intent_certification_pic",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "pics",
+            "entity": "pic"
+          },
+          {
+            "start": 21,
+            "end": 32,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "training",
+            "entity": "train"
+          },
+          {
+            "start": 46,
+            "end": 59,
+            "value": "certification",
+            "entity": "certification"
+          }
+        ]
+      },
+      {
+        "text": "Should all pics receive food safety training and certification?",
+        "intent": "intent_certification_pic",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "pics",
+            "entity": "pic"
+          },
+          {
+            "start": 24,
+            "end": 35,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 36,
+            "end": 44,
+            "value": "training",
+            "entity": "train"
+          },
+          {
+            "start": 49,
+            "end": 62,
+            "value": "certification",
+            "entity": "certification"
+          }
+        ]
+      },
+      {
+        "text": "Should all pics learn about food safety and get a certificate?",
+        "intent": "intent_certification_pic",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "pics",
+            "entity": "pic"
+          },
+          {
+            "start": 28,
+            "end": 39,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "value": "learn",
+            "entity": "train"
+          },
+          {
+            "start": 50,
+            "end": 61,
+            "value": "certificate",
+            "entity": "certification"
+          }
+        ]
+      },
+      {
+        "text": "Each pic needs to be trained and certified in food safety.",
+        "intent": "intent_certification_pic",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "pic",
+            "entity": "pic"
+          },
+          {
+            "start": 46,
+            "end": 57,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "trained",
+            "entity": "train"
+          },
+          {
+            "start": 33,
+            "end": 42,
+            "value": "certified",
+            "entity": "certification"
+          }
+        ]
+      },
+      {
+        "text": "Should all pics have some sort of food safety training and certification?",
+        "intent": "intent_certification_pic",
+        "entities": [
+          {
+            "start": 34,
+            "end": 45,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "pics",
+            "entity": "pic"
+          },
+          {
+            "start": 46,
+            "end": 54,
+            "value": "training",
+            "entity": "train"
+          },
+          {
+            "start": 59,
+            "end": 72,
+            "value": "certification",
+            "entity": "certification"
+          }
+        ]
+      },
+      {
+        "text": "food safety certification for all pics?",
+        "intent": "",
+        "entities": [
+          {
+            "start": 34,
+            "end": 38,
+            "value": "pics",
+            "entity": "pic"
+          },
+          {
+            "start": 0,
+            "end": 11,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 12,
+            "end": 25,
+            "value": "certification",
+            "entity": "certification"
+          }
+        ]
+      },
+      {
+        "text": "Why must pics go through seven days of food safety inspections before receiving their pic certification?",
+        "intent": "intent_certification_pic_date",
+        "entities": [
+          {
+            "start": 86,
+            "end": 103,
+            "value": "pic certification",
+            "entity": "pic_certificate"
+          },
+          {
+            "start": 39,
+            "end": 50,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 25,
+            "end": 35,
+            "value": "seven days",
+            "entity": "date"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "pics",
+            "entity": "pic"
+          }
+        ]
+      },
+      {
+        "text": "Why should pics undergo 7 days of food safety exams before receiving pic certification?",
+        "intent": "intent_certification_pic_date",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "pics",
+            "entity": "pic"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "7 days",
+            "entity": "date"
+          },
+          {
+            "start": 34,
+            "end": 45,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 69,
+            "end": 86,
+            "value": "pic certification",
+            "entity": "pic_certificate"
+          }
+        ]
+      },
+      {
+        "text": "Why must pics undergo seven days of food safety exams prior to receiving their certification?",
+        "intent": "intent_certification_pic_date",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "pics",
+            "entity": "pic"
+          },
+          {
+            "start": 22,
+            "end": 32,
+            "value": "seven days",
+            "entity": "date"
+          },
+          {
+            "start": 36,
+            "end": 47,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 79,
+            "end": 92,
+            "value": "certification",
+            "entity": "pic_certificate"
+          }
+        ]
+      },
+      {
+        "text": "Why do pics have to check the safety of food for 7 days before they can get their pic certification?",
+        "intent": "intent_certification_pic_date",
+        "entities": [
+          {
+            "start": 82,
+            "end": 99,
+            "value": "pic certification",
+            "entity": "pic_certificate"
+          },
+          {
+            "start": 49,
+            "end": 55,
+            "value": "7 days",
+            "entity": "date"
+          },
+          {
+            "start": 30,
+            "end": 44,
+            "value": "safety of food",
+            "entity": "food_safety"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "pics",
+            "entity": "pic"
+          }
+        ]
+      },
+      {
+        "text": "What purpose does it serve to require pics to undergo seven days of food safety exams before receiving their pic certification?",
+        "intent": "intent_certification_pic_date",
+        "entities": [
+          {
+            "start": 109,
+            "end": 126,
+            "value": "pic certification",
+            "entity": "pic_certificate"
+          },
+          {
+            "start": 68,
+            "end": 79,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 54,
+            "end": 64,
+            "value": "seven days",
+            "entity": "date"
+          },
+          {
+            "start": 38,
+            "end": 42,
+            "value": "pics",
+            "entity": "pic"
+          }
+        ]
+      },
+      {
+        "text": "Why is it necessary for pics to undergo seven days' worth of food safety exams before they can be certified as pics?",
+        "intent": "intent_certification_pic_date",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "pics",
+            "entity": "pic"
+          },
+          {
+            "start": 40,
+            "end": 57,
+            "value": "seven days' worth",
+            "entity": "date"
+          },
+          {
+            "start": 61,
+            "end": 72,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 98,
+            "end": 115,
+            "value": "certified as pics",
+            "entity": "pic_certificate"
+          }
+        ]
+      },
+      {
+        "text": "Why is it necessary for pics to undergo seven days' worth of food safety exams before they can be certified as pics?",
+        "intent": "intent_certification_pic_date",
+        "entities": [
+          {
+            "start": 98,
+            "end": 115,
+            "value": "certified as pics",
+            "entity": "pic_certificate"
+          },
+          {
+            "start": 61,
+            "end": 72,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 40,
+            "end": 57,
+            "value": "seven days' worth",
+            "entity": "date"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "pics",
+            "entity": "pic"
+          }
+        ]
+      },
+      {
+        "text": "What does the status \"active\" mean?",
+        "intent": "intent_status",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "active",
+            "entity": "active"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "What does the status 'active' mean?",
+        "intent": "intent_status",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "status",
+            "entity": "status"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "value": "active",
+            "entity": "active"
+          }
+        ]
+      },
+      {
+        "text": "What does the status 'active' indicate?",
+        "intent": "intent_status",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "active",
+            "entity": "active"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "Why is the status showing as \"active\"?",
+        "intent": "intent_status",
+        "entities": [
+          {
+            "start": 30,
+            "end": 36,
+            "value": "active",
+            "entity": "active"
+          },
+          {
+            "start": 11,
+            "end": 17,
+            "value": "status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "What exactly does it mean when it says that something is \"active\"?",
+        "intent": "",
+        "entities": [
+          {
+            "start": 58,
+            "end": 64,
+            "value": "active",
+            "entity": "active"
+          }
+        ]
+      },
+      {
+        "text": "What's \"active\"?",
+        "intent": "",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "active",
+            "entity": "active"
+          }
+        ]
+      },
+      {
+        "text": "Will my access to foodwatch features be restricted if my status is \"Inactive\"?",
+        "intent": "intent_status_access_limit",
+        "entities": [
+          {
+            "start": 68,
+            "end": 76,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 18,
+            "end": 36,
+            "value": "foodwatch features",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 40,
+            "end": 50,
+            "value": "restricted",
+            "entity": "limit"
+          },
+          {
+            "start": 57,
+            "end": 63,
+            "value": "status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "Will having a \"Inactive\" status restrict my access to foodwatch features?",
+        "intent": "intent_status_access_limit",
+        "entities": [
+          {
+            "start": 54,
+            "end": 72,
+            "value": "foodwatch features",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 15,
+            "end": 23,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "status",
+            "entity": "status"
+          },
+          {
+            "start": 32,
+            "end": 40,
+            "value": "restrict",
+            "entity": "limit"
+          }
+        ]
+      },
+      {
+        "text": "Will my \"Inactive\" status restrict my access to foodwatch features?",
+        "intent": "intent_status_access_limit",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 48,
+            "end": 66,
+            "value": "foodwatch features",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "status",
+            "entity": "status"
+          },
+          {
+            "start": 26,
+            "end": 34,
+            "value": "restrict",
+            "entity": "limit"
+          }
+        ]
+      },
+      {
+        "text": "Will my access to foodwatch features be limited if my status is \"Inactive\"?",
+        "intent": "intent_status_access_limit",
+        "entities": [
+          {
+            "start": 65,
+            "end": 73,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 18,
+            "end": 36,
+            "value": "foodwatch features",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 40,
+            "end": 47,
+            "value": "limited",
+            "entity": "limit"
+          },
+          {
+            "start": 54,
+            "end": 60,
+            "value": "status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "Will my ability to use foodwatch features be restricted if my status is set to \"Inactive\"?",
+        "intent": "intent_status_access_limit",
+        "entities": [
+          {
+            "start": 23,
+            "end": 41,
+            "value": "foodwatch features",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 80,
+            "end": 88,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 45,
+            "end": 55,
+            "value": "restricted",
+            "entity": "limit"
+          },
+          {
+            "start": 62,
+            "end": 68,
+            "value": "status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "Will having a \"Inactive\" status make it more difficult for me to access the foodwatch features?",
+        "intent": "intent_status_access_limit",
+        "entities": [
+          {
+            "start": 76,
+            "end": 94,
+            "value": "foodwatch features",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 15,
+            "end": 23,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "status",
+            "entity": "status"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "value": "difficult",
+            "entity": "limit"
+          }
+        ]
+      },
+      {
+        "text": "If my status is “Inactive”, will it hinder my access to foodwatch features?",
+        "intent": "intent_status_access_limit",
+        "entities": [
+          {
+            "start": 56,
+            "end": 74,
+            "value": "foodwatch features",
+            "entity": "foodwatch_features"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 36,
+            "end": 42,
+            "value": "hinder",
+            "entity": "limit"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "Why, even after the checks, does the status remain \"Inactive\"?",
+        "intent": "intent_status_check",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "checks",
+            "entity": "checks"
+          },
+          {
+            "start": 52,
+            "end": 60,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "Why does the status remain 'Inactive' even after the checks have been completed?",
+        "intent": "intent_status_check",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "status",
+            "entity": "status"
+          },
+          {
+            "start": 53,
+            "end": 59,
+            "value": "checks",
+            "entity": "checks"
+          }
+        ]
+      },
+      {
+        "text": "Why does the status remain \"Inactive\" after the checks have been executed?",
+        "intent": "intent_status_check",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "status",
+            "entity": "status"
+          },
+          {
+            "start": 48,
+            "end": 54,
+            "value": "checks",
+            "entity": "checks"
+          }
+        ]
+      },
+      {
+        "text": "Why does the status still say \"Inactive\" after the checks have been done?",
+        "intent": "intent_status_check",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "status",
+            "entity": "status"
+          },
+          {
+            "start": 51,
+            "end": 57,
+            "value": "checks",
+            "entity": "checks"
+          }
+        ]
+      },
+      {
+        "text": "If the checks were successful, why does the status still read \"Inactive\"?",
+        "intent": "intent_status_check",
+        "entities": [
+          {
+            "start": 63,
+            "end": 71,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 7,
+            "end": 13,
+            "value": "checks",
+            "entity": "checks"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "status",
+            "entity": "status"
+          }
+        ]
+      },
+      {
+        "text": "Why does the status continue to display \"Inactive\" when the checks have already been carried out?",
+        "intent": "intent_status_check",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "status",
+            "entity": "status"
+          },
+          {
+            "start": 60,
+            "end": 66,
+            "value": "checks",
+            "entity": "checks"
+          }
+        ]
+      },
+      {
+        "text": "Why is the status \"Inactive\" after checks?",
+        "intent": "intent_status_check",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Inactive",
+            "entity": "inactive"
+          },
+          {
+            "start": 35,
+            "end": 41,
+            "value": "checks",
+            "entity": "checks"
+          },
+          {
+            "start": 11,
+            "end": 17,
+            "value": "status",
+            "entity": "status"
+          }
+        ]
+      }
+    ]
+  }
+}

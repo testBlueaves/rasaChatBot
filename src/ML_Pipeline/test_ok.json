@@ -1,0 +1,117 @@
+   {
+   	"flow": [
+		{
+			"intent": "intent_registration",
+   			"entities": [
+				{
+   					"entity": "register",
+   					"prompt": "where/what you want to registration?"
+   				}
+			],
+   			"api_data": {
+   				"url": "https://rasa2.free.beeceptor.com/register"
+   			}
+		},
+		{
+   			"intent": "intent_registration_business",
+   			"entities": [
+				{
+   					"entity": "organizations",
+   					"prompt": "which organizations"
+   				},
+				{
+   					"entity": "business",
+   					"prompt": "businesses"
+   				},
+				{
+   					"entity": "register",
+   					"prompt": "for register registration or somthing else"
+   				}
+			],
+   			"api_data": {
+   				"url": "https://rasa2.free.beeceptor.com/1"
+   			}
+   		},
+		{
+   			"intent": "intent_registration_hotels",
+   			"entities": [
+
+				{
+   					"entity": "register",
+   					"prompt": "Please enter what are you want to register"
+   				},{
+   					"entity": "hotel_restaurants",
+   					"prompt": "which hotels"
+   				}
+			],
+   			"api_data": {
+   				"url": "https://rasa2.free.beeceptor.com/2"
+   			}
+   		},
+
+		{
+   			"intent": "intent_registration_multisites",
+   			"entities": [
+				{
+					"entity": "register",
+   					"prompt": "What are you want to register?"
+				},{
+					"entity": "caterer",
+   					"prompt": "caterer or somthing else"
+				},
+				{
+					"entity": "license",
+   					"prompt": "under which license you operate ?"
+				}
+			],
+   			"api_data": {
+   				"url": "https://rasa2.free.beeceptor.com/3"
+   			}
+   		},{
+   			"intent": "ask_pic",
+   			"entities": [
+
+				{
+					"entity": "pic",
+   					"prompt": "which pic ?"
+				}
+			],
+   			"api_data": {
+   				"url": "https://rasa2.free.beeceptor.com/ask_pic"
+   			}
+   		},
+		{
+   			"intent": "intent_pic_primary",
+   			"entities": [
+				{
+					"entity": "pic",
+   					"prompt": "which pic ?"
+				},
+				{
+					"entity": "primary_pic",
+   					"prompt": "which pic"
+				}
+			],
+   			"api_data": {
+   				"url": "https://rasa2.free.beeceptor.com/4"
+   			}
+   		},
+		{
+   			"intent": "intent_pic_secondary",
+   			"entities": [
+				{
+					"entity": "pic",
+   					"prompt": "which pic ?"
+				},
+				{
+					"entity": "secondary_pic",
+   					"prompt": "which pic Primary, Secondary"
+				}
+			],
+   			"api_data": {
+   				"url": "https://rasa2.free.beeceptor.com/5"
+   			}
+   		}
+
+   	]
+   }

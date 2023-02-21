@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Maajid Bashir\\Desktop\\modular_code\\src\\../output/./Tensorflow_embedings_model\\default\\test\\component_4_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Maajid Bashir\\Desktop\\modular_code\\src\\../output/./Tensorflow_embedings_model\\default\\test\\component_4_EmbeddingIntentClassifier.ckpt"

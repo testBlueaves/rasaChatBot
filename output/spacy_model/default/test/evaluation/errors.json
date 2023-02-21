@@ -1,0 +1,98 @@
+[
+    {
+        "text": "What is the limit of adding PICs under my entity?",
+        "intent": "intent_pic",
+        "intent_prediction": {
+            "name": "intent_registration",
+            "confidence": 0.22253363918974284
+        }
+    },
+    {
+        "text": "Can I register my company in FoodWatch with Initial Trade Name Reservation Certificate?",
+        "intent": "intent_registration",
+        "intent_prediction": {
+            "name": "intent_check",
+            "confidence": 0.20357933885173823
+        }
+    },
+    {
+        "text": " How can food permits be obtained through FoodWatch? ",
+        "intent": "intent_permits",
+        "intent_prediction": {
+            "name": "intent_registration",
+            "confidence": 0.1696813778240382
+        }
+    },
+    {
+        "text": "How can I register my training center in FoodWatch to get Food Safety Training Permit?",
+        "intent": "intent_permits",
+        "intent_prediction": {
+            "name": "intent_check",
+            "confidence": 0.182548295651833
+        }
+    },
+    {
+        "text": "Can I get PIC Certificate of Food Trading via FoodWatch",
+        "intent": "intent_certification_pic",
+        "intent_prediction": {
+            "name": "intent_pic",
+            "confidence": 0.20985253631343848
+        }
+    },
+    {
+        "text": "Please Select Food!! why am I getting this message upon doing the process check?",
+        "intent": "intent_check",
+        "intent_prediction": {
+            "name": "intent_registration",
+            "confidence": 0.20477652562042892
+        }
+    },
+    {
+        "text": "How can a PIC report pest incidents their contractor (pest control company)?",
+        "intent": "intent_contractor",
+        "intent_prediction": {
+            "name": "intent_pic",
+            "confidence": 0.20226217753182898
+        }
+    },
+    {
+        "text": "Which Web Browser is suitable to access FoodWatch Website?",
+        "intent": "intent_web",
+        "intent_prediction": {
+            "name": "intent_registration",
+            "confidence": 0.22138488686147692
+        }
+    },
+    {
+        "text": "Why cannot I find FoodWatch Connect App in Google Play or the Apple store?",
+        "intent": "intent_store",
+        "intent_prediction": {
+            "name": "intent_pic",
+            "confidence": 0.20457280987347426
+        }
+    },
+    {
+        "text": "What are the working hours during Ramadan?",
+        "intent": "intent_ramadan",
+        "intent_prediction": {
+            "name": "intent_registration",
+            "confidence": 0.2059893430755129
+        }
+    },
+    {
+        "text": "Can I use my mobile to access FoodWatch?",
+        "intent": "intent_mobile",
+        "intent_prediction": {
+            "name": "intent_status",
+            "confidence": 0.1957318581183898
+        }
+    },
+    {
+        "text": "How can I attend the free online sessions?",
+        "intent": "intent_online",
+        "intent_prediction": {
+            "name": "intent_status",
+            "confidence": 0.16883778718384157
+        }
+    }
+]

@@ -1,0 +1,405 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "intent_pic",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "PIC",
+            "entity": "pic"
+          },
+          {
+            "start": 62,
+            "end": 74,
+            "value": "food handler",
+            "entity": "food_handler"
+          }
+        ],
+        "text": " What should the PIC do if an undesirable incident related to food handler is noticed?"
+      },
+      {
+        "intent": "intent_pic",
+        "entities": [
+          {
+            "start": 30,
+            "end": 43,
+            "value": "Secondary PIC",
+            "entity": "secondary_PIC"
+          },
+          {
+            "start": 47,
+            "end": 58,
+            "value": "Primary PIC",
+            "entity": "primary_pic"
+          }
+        ],
+        "text": "How can I change my role from Secondary PIC to Primary PIC or vice versa?"
+      },
+      {
+        "intent": "intent_pic",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "Primary PIC",
+            "entity": "primary_pic"
+          }
+        ],
+        "text": " What is the role of a Primary PIC?"
+      },
+      {
+        "intent": "intent_pic",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "PIC ",
+            "entity": "pic"
+          }
+        ],
+        "text": "What should the PIC do if an undesirable incident related to premises or equipment is noticed? "
+      },
+      {
+        "intent": "intent_pic",
+        "entities": [
+          {
+            "start": 30,
+            "end": 42,
+            "value": "Food handler",
+            "entity": "food_handler"
+          },
+          {
+            "start": 46,
+            "end": 54,
+            "value": "Primary ",
+            "entity": "primary_pic"
+          },
+          {
+            "start": 57,
+            "end": 70,
+            "value": "Secondary PIC",
+            "entity": "secondary_PIC"
+          }
+        ],
+        "text": "How can I change my role from Food handler to Primary or Secondary PIC?"
+      },
+      {
+        "intent": "intent_registration",
+        "entities": [
+          {
+            "start": 63,
+            "end": 82,
+            "value": "FoodWatch platform",
+            "entity": "company_platform"
+          },
+          {
+            "start": 32,
+            "end": 42,
+            "value": "businesses",
+            "entity": "business"
+          },
+          {
+            "start": 14,
+            "end": 27,
+            "value": "organizations",
+            "entity": "organizations"
+          }
+        ],
+        "text": "What types of organizations and businesses need registration on FoodWatch platform"
+      },
+      {
+        "intent": "intent_registration",
+        "entities": [
+          {
+            "start": 57,
+            "end": 66,
+            "value": "FoodWatch",
+            "entity": "company"
+          }
+        ],
+        "text": "How should a hotel with multiple restaurants register on FoodWatch?"
+      },
+      {
+        "intent": "intent_registration",
+        "entities": [
+          {
+            "start": 54,
+            "end": 64,
+            "value": "FoodWatch",
+            "entity": "company"
+          }
+        ],
+        "text": " How should a caterer with multiple sites register on FoodWatch if all sites are operating under the main license?"
+      },
+      {
+        "intent": "intent_registration",
+        "entities": [
+          {
+            "start": 39,
+            "end": 60,
+            "value": "Restaurant management",
+            "entity": "hotel_restaurants"
+          }
+        ],
+        "text": "If my activity in the trade license is Restaurant management only, can I register in FoodWatch?"
+      },
+      {
+        "intent": "intent_permits",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "permit ",
+            "entity": "food_permits"
+          }
+        ],
+        "text": "How can I pay my FoodWatch or permit subscription fees by cash?"
+      },
+      {
+        "intent": "intent_permits",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "kiosk permit",
+            "entity": "kiosk_permits"
+          }
+        ],
+        "text": " For the Annual kiosk permit, what are the required documents from the licensing authority?"
+      },
+      {
+        "intent": "intent_permits",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "permits",
+            "entity": "food_permits"
+          },
+          {
+            "start": 41,
+            "end": 51,
+            "value": "FoodWatch ",
+            "entity": "company"
+          },
+          {
+            "start": 96,
+            "end": 102,
+            "value": " Dubai",
+            "entity": "city"
+          }
+        ],
+        "text": "What type of permits can be requested in FoodWatch by the companies from other emirates (outside Dubai)?"
+      },
+      {
+        "intent": "intent_permits",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "Food permit",
+            "entity": "food_permits"
+          },
+          {
+            "start": 78,
+            "end": 99,
+            "value": "Restaurant Management",
+            "entity": "restaurant_management"
+          }
+        ],
+        "text": "Can I get a Food permit or perform daily Inspections under my company if it’s Restaurant Management?"
+      },
+      {
+        "intent": "intent_certification_pic",
+        "entities": [
+          {
+            "start": 38,
+            "end": 50,
+            "value": "food safety",
+            "entity": "food_safety"
+          },
+          {
+            "start": 51,
+            "end": 58,
+            "value": "checks",
+            "entity": "checks"
+          }
+        ],
+        "text": "Why should the PICs complete 7 days of food safety checks before obtaining the PIC certification?"
+      },
+      {
+        "intent": "intent_certification_pic",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "PICs",
+            "entity": "pic"
+          },
+          {
+            "start": 43,
+            "end": 55,
+            "value": "food safety",
+            "entity": "food_safety"
+          }
+        ],
+        "text": "Should all PICs be trained and certified in food safety?"
+      },
+      {
+        "intent": "intent_certification_pic",
+        "entities": [
+          {
+            "start": 34,
+            "end": 38,
+            "value": "PICs",
+            "entity": "pic"
+          },
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Food safety",
+            "entity": "food_safety"
+          }
+        ],
+        "text": "Food safety certification for all PICs?"
+      },
+      {
+        "intent": "intent_non_halal",
+        "entities": [
+          {
+            "start": 93,
+            "end": 107,
+            "value": "non-halal food",
+            "entity": "non_halal_permit"
+          }
+        ],
+        "text": "If I have “leased out” restaurant in a hotel with different trade license .. can I apply for non-halal food activity permit?"
+      },
+      {
+        "intent": "intent_non_halal",
+        "entities": [
+          {
+            "start": 29,
+            "end": 45,
+            "value": "Non-Halal Permit",
+            "entity": "non_halal_permit"
+          }
+        ],
+        "text": "What are the requirements of Non-Halal Permit?"
+      },
+      {
+        "intent": "intent_non_halal",
+        "entities": [
+          {
+            "start": 43,
+            "end": 59,
+            "value": "Non-Halal Permit",
+            "entity": "non_halal_permit"
+          }
+        ],
+        "text": "What is the Common Reason for Rejection of Non-Halal Permit?"
+      },
+      {
+        "intent": "intent_check",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "checks",
+            "entity": "checks"
+          }
+        ],
+        "text": " How many Start-up or Opening checks should be conducted in a day? "
+      },
+      {
+        "intent": "intent_check",
+        "entities": [
+          {
+            "start": 41,
+            "end": 59,
+            "value": "temperature checks",
+            "entity": "temperature_check"
+          },
+          {
+            "start": 5,
+            "end": 18,
+            "value": "food business",
+            "entity": "business"
+          }
+        ],
+        "text": "If a food business conducts several food temperature checks in a day, should all the data be entered? "
+      },
+      {
+        "intent": "intent_check",
+        "entities": [
+          {
+            "start": 33,
+            "end": 46,
+            "value": "process check",
+            "entity": "process_check"
+          },
+          {
+            "start": 51,
+            "end": 66,
+            "value": "equipment check",
+            "entity": "equipment_check"
+          }
+        ],
+        "text": "What is the relationship between process check and equipment check?"
+      },
+      {
+        "intent": "intent_status",
+        "entities": [
+          {
+            "start": 55,
+            "end": 65,
+            "value": "FoodWatch",
+            "entity": "company"
+          }
+        ],
+        "text": "If my status is “Inactive”, will it limit my access to FoodWatch Features? "
+      },
+      {
+        "intent": "intent_status",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Active",
+            "entity": "active"
+          }
+        ],
+        "text": " What does the 'Active' status indicate?"
+      },
+      {
+        "intent": "intent_contractor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "PIC",
+            "entity": "pic"
+          },
+          {
+            "start": 43,
+            "end": 56,
+            "value": "tank cleaning",
+            "entity": "tank_clean"
+          },
+          {
+            "start": 21,
+            "end": 32,
+            "value": "grease trap",
+            "entity": "grease_trap"
+          }
+        ],
+        "text": "How can a PIC manage grease trap and water tank cleaning contracts?"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "text": "foodwatch",
+        "intent": "intent_foodwatch",
+        "intent_prediction": {
+            "name": "intent_mobile",
+            "confidence": 0.548366367816925
+        }
+    },
+    {
+        "text": "to what extent do cultural differences play a role in the denial of a non-halal permit",
+        "intent": "intent_non_halal_rejection",
+        "intent_prediction": {
+            "name": "intent_non_halal_req",
+            "confidence": 0.7718163728713989
+        }
+    },
+    {
+        "text": "if my business deals with the management of restaurants are i allowed to apply for a food permit and conduct routine inspections",
+        "intent": "intent_restaurant_management_permits_inspections",
+        "intent_prediction": {
+            "name": "intent_bfs_training_request",
+            "confidence": 0.6934472322463989
+        }
+    },
+    {
+        "text": "each pic needs to be trained and certified in food safety.",
+        "intent": "intent_certification_pic",
+        "intent_prediction": {
+            "name": "intent_primary_secondary_handler",
+            "confidence": 0.5165067315101624
+        }
+    },
+    {
+        "text": "pics",
+        "intent": "ask_pic",
+        "intent_prediction": {
+            "name": "intent_inspection_business",
+            "confidence": 0.43982505798339844
+        }
+    }
+]

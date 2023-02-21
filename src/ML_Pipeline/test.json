@@ -1,0 +1,1200 @@
+   {
+   	"flow": [
+
+		{
+   			"intent": "intent_registration_business",
+   			"entities": [
+				{
+   					"entity": "organizations",
+   					"prompt": "which organizations"
+   				},
+				{
+   					"entity": "business",
+   					"prompt": "businesses"
+   				},
+				{
+   					"entity": "register",
+   					"prompt": "for register registration or somthing else"
+   				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/1"
+   			}
+   		},
+		{
+   			"intent": "intent_registration_hotels",
+   			"entities": [
+
+				{
+   					"entity": "register",
+   					"prompt": "Please enter what are you want to register"
+   				},{
+   					"entity": "hotel",
+   					"prompt": "hotels with multiple restaurant?"
+   				},{
+   					"entity": "multiple",
+   					"prompt": " a hotel with multiple restaurants register"
+   				},{
+   					"entity": "restaurant",
+   					"prompt": "hotels with multiple restaurant"
+   				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/2"
+   			}
+   		},
+
+		{
+   			"intent": "intent_registration_multisites",
+   			"entities": [
+				{
+					"entity": "register",
+   					"prompt": "Want to register a caterer?"
+				},{
+					"entity": "caterer",
+   					"prompt": "caterer with many sites or single?"
+				},
+				{
+					"entity": "multiple",
+   					"prompt": "So, a caterer with multiple sites register on foodwatch"
+				},
+				{
+					"entity": "many_sites",
+   					"prompt": "all sites are operating under the main license"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/3"
+   			}
+   		},{
+   			"intent": "ask_pic",
+   			"entities": [
+
+				{
+					"entity": "pic",
+   					"prompt": "which pic ?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/ask_pic"
+   			}
+   		},
+		{
+   			"intent": "intent_pic_primary",
+   			"entities": [
+				{
+					"entity": "pic",
+   					"prompt": "what role you want to pic ?"
+				},
+				{
+					"entity": "primary",
+   					"prompt": "which pic"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/4"
+   			}
+   		},
+		{
+   			"intent": "intent_pic_secondary",
+   			"entities": [
+				{
+					"entity": "pic",
+   					"prompt": "which role you want to pic ?"
+				},
+				{
+					"entity": "secondary",
+   					"prompt": "which pic Primary, Secondary"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/5"
+   			}
+   		},
+		{
+   			"intent": "intent_permits",
+   			"entities": [
+				{
+					"entity": "food",
+   					"prompt": "what do you want to obtained?"
+				},{
+					"entity": "permit",
+   					"prompt": "Food Permit or just Food"
+				}
+
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/6"
+   			}
+   		},{
+   			"intent": "intent_certification_pic",
+   			"entities": [
+				{
+					"entity": "pic",
+   					"prompt": "what do want to say?"
+				},{
+					"entity": "train",
+   					"prompt": "Sorry cant understand your question, all PICs for trained and what?"
+				},{
+					"entity": "certification",
+   					"prompt": "if you want to certified -- 'type want to certified'"
+				},{
+					"entity": "food_safety",
+   					"prompt": "all PICs be trained and certified in what..."
+				}
+
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/7"
+   			}
+   		},{
+   			"intent": "intent_certification_pic_date",
+   			"entities": [
+				{
+					"entity": "pic",
+   					"prompt": "what do want to say?"
+				},{
+					"entity": "days",
+   					"prompt": "as a given data we can show you 7 days of complete pic"
+				},{
+					"entity": "certification",
+   					"prompt": "if you want to certified -- 'type want to certified'"
+				},{
+					"entity": "food_safety",
+   					"prompt": "all PICs be trained and certified in what..."
+				}
+
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/8"
+   			}
+   		},{
+   			"intent": "intent_status",
+   			"entities": [
+				{
+					"entity": "active",
+   					"prompt": "Please type 'Active' status"
+				},
+				{
+					"entity": "status",
+   					"prompt": "'Active' or 'Inactive' status"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/9"
+   			}
+   		},{
+   			"intent": "intent_status_access_limit",
+   			"entities": [
+				{
+					"entity": "status",
+   					"prompt": "'Active' or 'Inactive' status"
+				},{
+					"entity": "inactive",
+   					"prompt": "What further you want to ask?"
+				},
+				{
+					"entity": "limit",
+   					"prompt": "what you want to know about inactive status?"
+				},{
+					"entity": "features",
+   					"prompt": "where you wan to check limit to"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/10"
+   			}
+   		},
+		{
+   			"intent": "intent_status_check",
+   			"entities": [
+
+				{
+					"entity": "status",
+   					"prompt": "'Active' or 'Inactive' status"
+				},{
+					"entity": "inactive",
+   					"prompt": "Please type 'inactive' status"
+				},{
+					"entity": "check",
+   					"prompt": "Do you want to check performance? then type check performance"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/11"
+   			}
+   		},{
+   			"intent": "intent_open_check_day",
+   			"entities": [
+
+				{
+					"entity": "check_type",
+   					"prompt": "startup-check or  opening check or any other check"
+				},{
+					"entity": "day",
+   					"prompt": "1 day or 7 day?"
+				},{
+					"entity": "check",
+   					"prompt": "startup-check or  opening check or any other check in a day"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/12"
+   			}
+   		},{
+   			"intent": "intent_pic_food_handler",
+   			"entities": [
+				{
+					"entity": "pic",
+   					"prompt": "all pic or just pic"
+				},{
+					"entity": "undesirable",
+   					"prompt": "what type of pic incident"
+				},
+				{
+					"entity": "food_handler",
+   					"prompt": "startup-check or  opening check or any other check in a day"
+				},{
+					"entity": "notice",
+   					"prompt": "pic incident related  to food handler is what..."
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/13"
+   			}
+   		},
+		{
+   			"intent": "intent_pic_notice_equipment",
+   			"entities": [
+				{
+					"entity": "pic",
+   					"prompt": "all pic or just pic"
+				},{
+					"entity": "notice",
+   					"prompt": "pic incident related  to food handler is what..."
+				},
+				{
+					"entity": "equipment",
+   					"prompt": "incidence related to what"
+				},{
+					"entity": "undesirable",
+   					"prompt": "what kind of incidence related to premises or equipment."
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/14"
+   			}
+   		},
+		{
+   			"intent": "intent_equip_process_check",
+   			"entities": [{
+					"entity": "check",
+   					"prompt": "wht do you want check ?"
+				},
+				{
+					"entity": "equipment",
+   					"prompt": "which one process or equipment"
+				},{
+					"entity": "process",
+   					"prompt": "Please type process check.."
+				}],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/15"
+   			}
+   		},{
+   			"intent": "intent_check_temperature",
+   			"entities": [
+				{	"entity": "food",
+   					"prompt": "if a food business conducts"
+				},{
+					"entity": "temperature",
+   					"prompt": "if a food business conducts several food ?"
+				},{
+					"entity": "check",
+   					"prompt": "you want check the temperature "
+				},{
+					"entity": "day",
+   					"prompt": "several food temperature checks in a day"
+				},
+				{
+					"entity": "data",
+   					"prompt": "want to entered the data"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/16"
+   			}
+   		},{
+   			"intent": "intent_management_system",
+   			"entities": [
+				{	"entity": "management",
+   					"prompt": "Which Supplier you want to know how it is work?"
+				},{
+					"entity": "system",
+   					"prompt": "is this question you want ask 'How does supplier management work?' "
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/17"
+   			}
+   		},{
+   			"intent": "intent_contractor_pest",
+   			"entities": [
+				{
+					"entity": "report",
+   					"prompt": "what do you want to contract"
+				},{	"entity": "pic",
+   					"prompt": "what do want to say?"
+				},{
+					"entity": "pest",
+   					"prompt": "pic report incidents on what ?"
+				},{
+					"entity": "control",
+   					"prompt": "pest what do you want to say pest control "
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/18"
+   			}
+   		},
+		{
+   			"intent": "intent_contractor_tank_cleaning",
+   			"entities": [
+				{
+					"entity": "trap",
+   					"prompt": "grease trap or water tank"
+				},{	"entity": "grease",
+   					"prompt": "what do want to say?"
+				},{
+					"entity": "water",
+   					"prompt": "pic report incidents on what ?"
+				},{
+					"entity": "contract",
+   					"prompt": "pest what do you want to say pest control/ "
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/19"
+   			}
+   		},
+		{
+   			"intent": "intent_ramadan",
+   			"entities": [
+				{
+					"entity": "trap",
+   					"prompt": "grease trap or water tank"
+				},{	"entity": "grease",
+   					"prompt": "what do want to say?"
+				},{
+					"entity": "water",
+   					"prompt": "pic report incidents on what ?"
+				},{
+					"entity": "contract",
+   					"prompt": "pest what do you want to say pest control/ "
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/20"
+   			}
+   		},
+
+		{
+   			"intent": "intent_registration_trade_license",
+   			"entities": [
+				{
+					"entity": "register",
+   					"prompt": "say what"
+				},{	"entity": "food",
+   					"prompt": "what do want to register ?"
+				},{
+					"entity": "trade",
+   					"prompt": "food company if there is a remark in "
+				},{
+					"entity": "license",
+   					"prompt": "register my food company if there is a remark in the trade license"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/21"
+   			}
+   		},
+
+		{
+   			"intent": "intent_registration_clean_license",
+   			"entities": [
+				{
+					"entity": "register",
+   					"prompt": "what do you want to say"
+				},{	"entity": "technical",
+   					"prompt": "what do you want to register?"
+				},{
+					"entity": "service",
+   					"prompt": "cleaning services ?"
+				},{
+					"entity": "provider",
+   					"prompt": "register my technical service provider company"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/22"
+   			}
+   		},
+
+		{
+   			"intent": "intent_permits_dm_permit_officer",
+   			"entities": [
+				{
+					"entity": "dm",
+   					"prompt": "inspect by whom"
+				},
+				{
+					"entity": "officer",
+   					"prompt": "dm?"
+				},
+
+				{
+					"entity": "pre_approve",
+   					"prompt": "trade company want it want to approve?"
+				},
+				{
+					"entity": "permit",
+   					"prompt": "if i have a trading company do i need pre-approval from dm permit officer"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/23"
+   			}
+   		},
+
+		{
+   			"intent": "intent_permits_dm_inspector_permit",
+   			"entities": [
+				{
+					"entity": "dm",
+   					"prompt": "inspect by whom"
+				},
+				{
+					"entity": "inspector",
+   					"prompt": "dm?"
+				},
+				{
+					"entity": "entity",
+   					"prompt": "what is not inspected yet"
+				},
+				{
+					"entity": "food",
+   					"prompt": "you can apply under what"
+				},
+				{
+					"entity": "permit",
+   					"prompt": "entity is not inspected yet by dm inspector can i apply for a food permit?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/24"
+   			}
+   		},
+
+		{
+   			"intent": "intent_registration_restaurant_mang",
+   			"entities": [
+				{
+					"entity": "register",
+   					"prompt": "what activity you want do in foodwatch"
+				},
+				{
+					"entity": "restaurant",
+   					"prompt": "sole activity i perform under my trade licence is managing"
+				},
+				{
+					"entity": "management",
+   					"prompt": "restaurant managing"
+				},
+				{
+					"entity": "licence",
+   					"prompt": "under trade licence? "
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/25"
+   			}
+   		},
+
+		{
+   			"intent": "intent_kiosk_permits",
+   			"entities": [
+				{
+					"entity": "licence",
+   					"prompt": "which paperwork..?"
+				},{	"entity": "annual",
+   					"prompt": "licencing paperwork are needed for .."
+				},{
+					"entity": "kiosk",
+   					"prompt": "Which permit"
+				},{
+					"entity": "permit",
+   					"prompt": "Kiosk permit? "
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/26"
+   			}
+   		},
+
+		{
+   			"intent": "intent_event_permits",
+   			"entities": [
+				{
+					"entity": "event",
+   					"prompt": "which food activity"
+				},
+				{	"entity": "permit",
+   					"prompt": "which permit event permit?"
+				},
+				{
+					"entity": "dtcm",
+   					"prompt": "without approval whom?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/27"
+   			}
+   		},
+
+		{
+   			"intent": "intent_process_check",
+   			"entities": [
+				{
+					"entity": "error",
+   					"prompt": "Which error message has apper"
+				},
+				{
+					"entity": "message",
+   					"prompt": "what Food Choose?"
+				},
+				{
+					"entity": "process",
+   					"prompt": "When error is occurs"
+				},
+				{
+					"entity": "check",
+   					"prompt": "process check or ?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/28"
+   			}
+   		},
+
+		{
+   			"intent": "intent_web",
+   			"entities": [
+				{
+					"entity": "browser",
+   					"prompt": "Web ?"
+				},{
+					"entity": "company_website",
+   					"prompt": "web browser is best for accessing the foodwatch?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/29"
+   			}
+   		},
+
+		{
+   			"intent": "intent_mobile",
+   			"entities": [
+				{
+					"entity": "foodwatch_company",
+   					"prompt": "Access to FoodWatch?"
+				},
+				{
+					"entity": "mobile",
+   					"prompt": "By which device?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/30"
+   			}
+   		},
+
+		{
+   			"intent": "intent_store",
+   			"entities": [
+				{
+					"entity": "app",
+   					"prompt": "which app store google play or apple store"
+				},
+				{
+					"entity": "google_store",
+   					"prompt": "Foodwatch connect app unavailable on google play"
+				},
+				{
+					"entity": "apple_store",
+   					"prompt": "pic report incidents on what ?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/31"
+   			}
+   		},
+{
+   			"intent": "intent_registration_training_permits",
+   			"entities": [
+				{
+					"entity": "register",
+   					"prompt": "what do you want to register"
+				},
+				{	"entity": "training_center",
+   					"prompt": "you can register training center"
+				},
+				{
+					"entity": "food_safety",
+   					"prompt": "register your training center in foodwatch to get what.."
+				},
+				{
+					"entity": "training",
+   					"prompt": "pest what do you want to say pest control/ "
+				},
+				{
+					"entity": "permit",
+   					"prompt": "training permit?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/32"
+   			}
+   		},
+
+		{
+   			"intent": "intent_non_halal_businesses",
+   			"entities": [
+				{
+					"entity": "permit",
+   					"prompt": "permit?"
+				},
+				{
+					"entity": "non_hala",
+   					"prompt": "hala or non-hala permit"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/33"
+   			}
+   		},
+
+		{
+   			"intent": "intent_non_halal_rejection",
+   			"entities": [
+				{
+					"entity": "permit",
+   					"prompt": "hala or non-hala permit"
+				},
+				{
+					"entity": "non_hala",
+   					"prompt": "hala or non-hala"
+				},
+				{
+					"entity": "rejection",
+   					"prompt": "what do want for non-hala"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/34"
+   			}
+   		},
+
+		{
+   			"intent": "intent_non_halal_req",
+   			"entities": [
+				{	"entity": "requirement",
+   					"prompt": "Sorry, Can't understand your question?"
+				},
+				{
+					"entity": "non_hala",
+   					"prompt": "hala or non hala permit"
+				},
+				{
+					"entity": "permit",
+   					"prompt": "permit for what"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/35"
+   			}
+   		},
+{
+   			"intent": "intent_non_halal_leased_hotel_permit",
+   			"entities": [
+				{
+					"entity": "restaurant",
+   					"prompt": "pic report incidents on what ?"
+				},{
+					"entity": "hotel",
+   					"prompt": "i have leased out restaurant in ?"
+				},{
+					"entity": "trade",
+   					"prompt": "have leased out restaurant in a hotel with different"
+				},{	"entity": "license",
+   					"prompt": "what do want to say?"
+				},{
+					"entity": "non_hala",
+   					"prompt": "trade licence with hala or non-hala?"
+				},{
+					"entity": "permit",
+   					"prompt": "i apply for non-halal food activity ? "
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/36"
+   			}
+   		},
+{
+   			"intent": "intent_certification_pic_trading",
+   			"entities": [
+				{
+					"entity": "pic",
+   					"prompt": "for what you want ?"
+				},
+				{	"entity": "certification",
+   					"prompt": ""
+				},
+				{
+					"entity": "food",
+   					"prompt": "pic report incidents on what ?"
+				},
+				{
+					"entity": "trading",
+   					"prompt": "can i get pic certificate of food ..?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/37"
+   			}
+   		},
+{
+   			"intent": "intent_bfs_training_request",
+   			"entities": [
+				{	"entity": "restaurant",
+   					"prompt": "Which type of restaurant management ?"
+				},
+				{	"entity": "management",
+   					"prompt": "rmb"
+				},
+				{	"entity": "business",
+   					"prompt": "restaurant management business?"
+				},
+				{
+					"entity": "pic",
+   					"prompt": "PIC for what.."
+				},
+				{
+					"entity": "bfs",
+   					"prompt": "BFS..?"
+				},
+				{	"entity": "request",
+   					"prompt": "what do want to say?"
+				},
+				{
+					"entity": "train",
+   					"prompt": "where you want to training"
+				},
+				{
+					"entity": "training_center",
+   					"prompt": "pest what do you want to say pest control"
+				}
+
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/38"
+   			}
+   		},
+{
+   			"intent": "intent_restaurant_management_permits_inspections",
+   			"entities": [
+				{
+					"entity": "restaurant",
+   					"prompt": "daily inspections?"
+				},
+				{
+					"entity": "management",
+   					"prompt": "my restaurant "
+				},
+				{
+					"entity": "company",
+   					"prompt": "restaurant management company or (RMC)"
+				},
+				{
+					"entity": "permit",
+   					"prompt": "my restaurant management company receive a food permit ?"
+				},
+				{	"entity": "inspection",
+   					"prompt": "food permit or do daily"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/39"
+   			}
+   		},
+{
+   			"intent": "intent_manpower_business_bfs",
+   			"entities": [
+				{
+					"entity": "manpower",
+   					"prompt": "grease trap or water tank"
+				},{	"entity": "supply",
+   					"prompt": "manpower"
+				},{
+					"entity": "business",
+   					"prompt": "manpower supply business"
+				},{
+					"entity": "bfs",
+   					"prompt": "manpower supply business for what"
+				},{
+					"entity": "pic",
+   					"prompt": "bfs or pic "
+				},{
+					"entity": "training",
+   					"prompt": "training for my employees?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/40"
+   			}
+   		},
+{
+   			"intent": "intent_inspection_business",
+   			"entities": [
+				{
+					"entity": "inspection",
+   					"prompt": "checklist"
+				},
+				{	"entity": "category",
+   					"prompt": "the inspection checklist so that it pertains to easy .."
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/41"
+   			}
+   		},
+{
+   			"intent": "intent_add_pic_entity",
+   			"entities": [
+				{
+					"entity": "pic",
+   					"prompt": "min or max number of pic"
+				},
+				{
+					"entity": "entity",
+   					"prompt": "pics that can be added"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/42"
+   			}
+   		},
+{
+   			"intent": "intent_registration",
+   			"entities": [
+				{
+					"entity": "register",
+   					"prompt": "Foodwatch registration with initial ?"
+				},
+				{
+					"entity": "tnr",
+   					"prompt": "for which certificate?"
+				},
+				{
+					"entity": "certification",
+   					"prompt": "pic report incidents on what ?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/43"
+   			}
+   		},
+
+		{
+   			"intent": "intent_free_online",
+   			"entities": [
+
+				{
+					"entity": "online_session",
+   					"prompt": "find the instructions for what?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/44"
+   			}
+   		},
+
+		{
+   			"intent": "intent_annual_kiosk_ded_permit",
+   			"entities": [
+				{
+					"entity": "ded",
+   					"prompt": "grease trap or water tank"
+				},{	"entity": "permit",
+   					"prompt": "ded permission number..?"
+				},{
+					"entity": "permanent",
+   					"prompt": "pic report incidents on what ?"
+				},{
+					"entity": "kiosk",
+   					"prompt": " a request for a permanent for what.."
+				},{
+					"entity": "annual",
+   					"prompt": "yearly??"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/45"
+   			}
+   		},
+
+		{
+   			"intent": "intent_subscription_cash_permits",
+   			"entities": [
+				{
+					"entity": "permit",
+   					"prompt": "food permit?"
+				},
+				{	"entity": "subscription",
+   					"prompt": "what do want to say?"
+				},
+				{
+					"entity": "pay",
+   					"prompt": "how can i pay my foodwatch or permit subscription "
+				},
+				{
+					"entity": "cash",
+   					"prompt": "fee by cash ?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/46"
+   			}
+   		},
+        {
+   			"intent": "intent_dmv_validity_check",
+   			"entities": [
+				{
+					"entity": "check",
+   					"prompt": "how can i check the validity"
+				},
+				{	"entity": "voucher",
+   					"prompt": "what do want to say?"
+				},
+				{
+					"entity": "municipality",
+   					"prompt": "which voucher"
+				},
+				{
+					"entity": "city",
+   					"prompt": "in which location"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/47"
+   			}
+   		},
+{
+   			"intent": "intent_city_permits",
+   			"entities": [
+
+				{
+					"entity": "permits",
+   					"prompt": "the companies from where"
+				},
+				{
+					"entity": "city",
+   					"prompt": "which city or location"
+				},
+				{	"entity": "request",
+   					"prompt": "what permit you want to request"
+				}
+
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/48"
+   			}
+   		},
+{
+   			"intent": "intent_primary_secondary_handler",
+   			"entities": [
+				{
+					"entity": "pic",
+   					"prompt": "what do you want to change ?"
+				},
+				{
+					"entity": "secondary",
+   					"prompt": "primary  and?"
+				},
+				{
+					"entity": "primary",
+   					"prompt": "secondary and ? "
+				},
+				{
+					"entity": "food_handler",
+   					"prompt": "primary or secondary pic from where you want to change the role "
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/49"
+   			}
+   		},
+{
+   			"intent": "intent_primary_secondary_pic",
+   			"entities": [
+				{
+					"entity": "pic",
+   					"prompt": "what do you want to change ?"
+				},
+				{
+					"entity": "secondary",
+   					"prompt": "primary  and?"
+				},
+				{
+					"entity": "primary",
+   					"prompt": "secondary and ? "
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/50"
+   			}
+   		},
+		{
+   			"intent": "intent_id_without_training",
+   			"entities": [
+				{
+					"entity": "food_safety",
+   					"prompt": "What do want to get"
+				},
+				{
+					"entity": "training",
+   					"prompt": "can i get a basic food safety"
+				},
+				{
+					"entity": "emirates_id",
+   					"prompt": "training without valid ?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/51"
+   			}
+   		},
+		{
+   			"intent": "intent_change_course",
+   			"entities": [
+				{
+					"entity": "trainer",
+   					"prompt": "what course"
+				},
+				{
+					"entity": "course_name",
+   					"prompt": "Can I as a trainer modify what"
+				},
+				{
+					"entity": "confirmation",
+   					"prompt": "my client's course name after the confirmation step?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/52"
+   			}
+   		},
+		{
+   			"intent": "intent_basic_qualification",
+   			"entities": [
+				{
+					"entity": "food_safety",
+   					"prompt": "What is the basic food"
+				},
+				{
+					"entity": "food_safety",
+   					"prompt": "qualification's validity"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/53"
+   			}
+   		},
+{
+   			"intent": "intent_roll_expert",
+   			"entities": [
+				{
+					"entity": "tech",
+   					"prompt": "what expert you want.."
+				},
+				{
+					"entity": "contact",
+   					"prompt": "Who are the technical expert and..?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/54"
+   			}
+   		},
+{
+   			"intent": "intent_register_business",
+   			"entities": [
+				{
+					"entity": "register",
+   					"prompt": "What do you want to register?"
+				},
+				{	"entity": "business",
+   					"prompt": "where in foodwatch??"
+				},
+				{
+					"entity": "foodwatch_company",
+   					"prompt": "is this you want to ask foodwatch business registration: how?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/55"
+   			}
+   		},
+		{  	"intent": "intent_add_health",
+   			"entities": [
+				{	"entity": "occupation",
+   					"prompt": "what is not added "
+				},{	"entity": "health_card",
+   					"prompt": "add your Occupation"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/56"
+   			}
+   		}, {
+   			"intent": "intent_iso_certificate",
+   			"entities": [
+				{	"entity": "iso",
+   					"prompt": "ISO ?"
+				},{	"entity": "haccap",
+   					"prompt": "ISO / HACCAP"
+				},{
+					"entity": "certification",
+   					"prompt": "Is there a way to add my ISO or HACCAP certification"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/57"
+   			}
+   		}, {
+   			"intent": "",
+   			"entities": [
+				{
+					"entity": "foodwatch_company",
+   					"prompt": "foodwatch is..?"
+				},{
+					"entity": "pic",
+   					"prompt": "pic is is..?"
+				}
+			],
+   			"api_data": {
+   				"url": "http://127.0.0.1:8000/question/foodwatch"
+   			}
+   		}
+   	]
+   }
